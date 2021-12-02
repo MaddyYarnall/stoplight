@@ -2,23 +2,54 @@
 .top{
   height: 175px;
   width: 75px;
-  background-color: rgb(85, 85, 85);
-  transform: translateX(402px);
+  background-color: rgb(34, 34, 34);
+  margin: 0 auto;
 }
 
 .middle{
   height: 450px;
   width: 200px;
-  background-color: rgb(85, 85, 85);
-  transform: translateX(337px);
+  background-color: rgb(34, 34, 34);
+  margin: 0 auto;
   border-radius: 5px;
 }
 
-.redlight{
+.red-light{
   height: 130px;
   width: 130px;
   border-radius: 50%;
   background-color: red;
-  transform: translate(374px, -432px);
+  margin: 0 auto;
+  transform: translate(0px, -433px);
 }
 
+
+.yellow-light{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: yellow;
+  margin: 0 auto;
+  transform: translate(0px, -424px);
+}
+
+.green-light{
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  background-color: green;
+  margin: 0 auto;
+  transform: translate(0px, -412px);
+}
+
+.red-light:hover{
+  Filter: drop-shadow(0px 0px 15px rgb(196, 96, 96))
+  }
+
+  .yellow-light:hover{
+    Filter: drop-shadow(0px 0px 15px rgb(224, 233, 105))
+    }
+
+    .green-light:hover{
+      Filter: drop-shadow(0px 0px 15px rgb(119, 209, 97))
+      }
